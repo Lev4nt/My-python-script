@@ -12,7 +12,7 @@ if not os.path.exists(OUTPUT_DIR):
     os.mkdir(OUTPUT_DIR)
 
 # Step 1: Scrape crt.sh for links containing 'ecolab.com'
-search_url = "https://crt.sh/?q=%.ecolab.com"
+search_url = "https://crt.sh/?q=ecolab.com"
 
 headers = {
     'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36'
